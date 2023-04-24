@@ -1,0 +1,175 @@
+{
+    "questions": [
+        {
+            "questionText": "Which of the following is not a keyword in java?",
+            "options": [
+                {
+                    "text": "Exception",
+                    "correct": true
+                },
+                {
+                    "text": "static"
+                },
+                {
+                    "text": "void"
+                },
+                {
+                    "text": "final"
+                }
+            ],
+            "explanation": "Exception is a class in Java not a keyword"
+        },
+        {
+            "questionText": " What is class variable?",
+            "options": [
+                {
+                    "text": " class variables are variables defined inside methods, constructors or blocks."
+                },
+                {
+                    "text": "class variables are variables within a class but outside any method."
+                },
+                {
+                    "text": "class variables are always private"
+                },
+                {
+                    "text": "class variables are static variables within a class but outside any method.",
+                    "correct": true
+                }
+            ],
+            "explanation": "static variables in Java are called Class variables as they have class scope and are common to all objects of class"
+        },
+        {
+            "questionText": "What is true about a final class?",
+            "options": [
+                {
+                    "text": " class declard final is a final class."
+                },
+                {
+                    "text": "Final classes are created so the methods implemented by that class cannot be overridden."
+                },
+                {
+                    "text": "It can't be inherited."
+                },
+                {
+                    "text": "All of the above.",
+                    "correct": true
+                }
+            ],
+            "explanation": "All the options are true and explain a fact about final class"
+        },
+        {
+            "questionText": "Which of these keywords are used for the block to be examined for exceptions?",
+            "options": [
+                {
+                    "text": "check"
+                },
+                {
+                    "text": "try",
+                    "correct": true
+                },
+                {
+                    "text": "catch"
+                },
+                {
+                    "text": "true"
+                }
+            ],
+            "explanation": " try is used for the block that needs to checked for exceptions"
+        },
+        {
+            "questionText": "Which one of the following is not an access modifier?",
+            "options": [
+                {
+                    "text": "void",
+                    "correct": true
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "private"
+                }
+            ],
+            "explanation": "public, private, protected and default are the only access modifiers in Java, void is a keyword"
+        },
+        {
+            "questionText": "What is true about constructor?",
+            "options": [
+                {
+                    "text": " It can contain return type"
+                },
+                {
+                    "text": "It can have any non access modifiers"
+                },
+                {
+                    "text": "Constructor cannot throw an exception"
+                },
+                {
+                    "text": " It can take any number of parameters",
+                    "correct": true
+                }
+            ],
+            "explanation": "Constructor can have any number of parameters"
+        },
+        {
+            "questionText": "What is not the use of “this” keyword in Java?",
+            "options": [
+                {
+                    "text": "It represents a return type"
+                },
+                {
+                    "text": "It is a reference variable that refers to the current object",
+                    "correct": true
+                },
+                {
+                    "text": "It is an access modifier"
+                },
+                {
+                    "text": "calls a parameterized constructor"
+                }
+            ],
+            "explanation": "In Java this keyword refers to current class object"
+        },
+        {
+            "questionText": "Which of the following is a valid declaration of an object of class Box?",
+            "options": [
+                {
+                    "text": " Box obj = new Box();",
+                    "correct": true
+                },
+                {
+                    "text": "Box obj = new Box;"
+                },
+                {
+                    "text": "obj = new Box();"
+                },
+                {
+                    "text": "new Box obj;"
+                }
+            ],
+            "explanation": "Box obj = new Box(); is the right way"
+        },
+        {
+            "questionText": "Which of these is used to allocate memory for an object?",
+            "options": [
+                {
+                    "text": "new",
+                    "correct": true
+                },
+                {
+                    "text": "class"
+                },
+                {
+                    "text": "obj"
+                },
+                {
+                    "text": "malloc"
+                }
+            ],
+            "explanation": "new keyword helps to allocate memory for an object in heap"
+        }
+    ]
+}
