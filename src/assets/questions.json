@@ -170,6 +170,26 @@
                 }
             ],
             "explanation": "new keyword helps to allocate memory for an object in heap"
+        },
+
+        {
+            "questionText": "Finally block is attached to?",
+            "options": [
+                {
+                    "text": "Try-catch block",
+                    "correct": true
+                },
+                {
+                    "text": "Class block"
+                },
+                {
+                    "text": "Method block"
+                },
+                {
+                    "text": "All of these"
+                }
+            ],
+            "explanation": "Finally, block of code runs at the end of the try-catch block"
         }
     ]
 }
